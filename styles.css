@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.btn-margin {
+    margin-left: 5px;
+}
+
+#div-new-invoice, #div-edit-invoice {
+    display: none;
+}
+
+#div-menu, #button-save-new-invoice, #button-save-edit-invoice {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#div-new-invoice, #div-edit-invoice {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
