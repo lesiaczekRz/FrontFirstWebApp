@@ -60,6 +60,7 @@ function showInvoices(result) {
         html += '<td>' + result[i].numberInvoice + '</td>';
         html += '<td>' + result[i].amount.toFixed(2) + '</td>';
         html += '<td>' + formatDate(Date.parse(result[i].date)) + '</td>';
+        html += '<td>' + result[i].user.name + '</td>';
         html += '<td>';
         html += '<button id="e' + result[i].id + '" class="btn btn-secondary btn-margin button-edit">Edytuj</button>';
         html += '<button id="d' + result[i].id + '" class="btn btn-secondary btn-margin button-delete">Usuń</button>';
